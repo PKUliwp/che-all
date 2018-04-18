@@ -101,7 +101,7 @@ public class HelloWorldViewPresenter extends BasePresenter implements HelloWorld
                 if(content.indexOf("\n", index) == -1) {
                     query = content.substring(index+2);
                 }
-                queryContent = content.substring(0, index);
+                queryContent = newValue;
             }
             else {
                 newValue = content;
