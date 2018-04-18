@@ -91,7 +91,7 @@ public class HelloWorldViewPresenter extends BasePresenter implements HelloWorld
 
         if(textEditor != null) {
             String content = textEditor.getEditorWidget().getValue();
-            int index = content.indexOf("??");
+            int index = content.indexOf("???");
             String newValue;
             String query;
             if(index > -1) {
