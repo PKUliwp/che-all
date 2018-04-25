@@ -47,7 +47,7 @@ public class HelloWorldViewPresenter extends BasePresenter implements HelloWorld
 
     private final HelloWorldView helloWorldView;
 
-    private final String url = "http://localhost:9090/api/index.jsp";
+    private final String url = "http://162.105.88.121:9090/api/index.jsp";
 
     private final EditorAgent editorAgent;
     private String queryContent;
